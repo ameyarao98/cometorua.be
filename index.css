@@ -27,8 +27,13 @@ h2 {
     font-size: 3vh;
 }
 
+h3 {
+    font-size: 1.5vh;
+}
+
 p {
-    font-size: 1vh;
+    margin: 5px;
+    font-size: 1.1vh;
 }
 
 
