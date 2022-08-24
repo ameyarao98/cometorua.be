@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-    font-size: 7vh;
     font-weight: bold;
     outline: 5px white;
     animation: tilt-n-move-shaking 0.4s infinite, fontbulger 0.4s infinite;
@@ -23,11 +22,11 @@ h1 {
 
     0%,
     100% {
-        font-size: 17vh;
+        font-size: 500%;
     }
 
     50% {
-        font-size: 16vh;
+        font-size: 490%;
     }
 }
 
