@@ -13,7 +13,6 @@ h1 {
     font-size: 7vh;
     font-weight: bold;
     outline: 5px white;
-    -webkit-text-stroke: 0.7px white;
 }
 
 .description {
