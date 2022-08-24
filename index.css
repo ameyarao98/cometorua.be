@@ -5,6 +5,7 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 h1 {
@@ -13,4 +14,31 @@ h1 {
     font-weight: bold;
     outline: 5px white;
     -webkit-text-stroke: 0.7px white;
+}
+
+.description {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5%;
+}
+
+h2 {
+    font-size: 3vh;
+}
+
+p {
+    font-size: 1vh;
+}
+
+.maps {
+    bottom: 0;
+    right: 0;
+    max-width: 50%;
+    position: absolute;
+    opacity: 0.85;
+}
+
+iframe {
+    border: 0;
 }
