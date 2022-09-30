@@ -12,8 +12,11 @@ body {
 
 h1 {
     font-size: 75px;
-    color: #880808;
     font-family: "Nosifer", sans-serif;
+    background: -webkit-linear-gradient(#a80a0a, #880808);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
