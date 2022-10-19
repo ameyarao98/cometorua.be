@@ -1,5 +1,5 @@
 html {
-    background: url(static/pumpkins.gif) no-repeat center center fixed;
+    background: url(static/fireworks.gif) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,12 +11,9 @@ body {
 }
 
 h1 {
-    font-size: 75px;
-    font-family: "Nosifer", sans-serif;
-    background: -webkit-linear-gradient(#a80a0a, #880808);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    color: white;
+    font-family: "Pacifico", sans-serif;
 }
 
 h2 {
