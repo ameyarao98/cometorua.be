@@ -65,7 +65,7 @@ p {
 }
 
 .description {
-    background-color: rgba(0, 0, 0, 0.8);
+    animation: background-color-change 10s infinite;
     width: 70%;
     margin: 0 auto;
     border-radius: 5%;
@@ -95,13 +95,70 @@ marquee {
     opacity: 0.85;
 }
 
-  
-  @keyframes color-change {
-    0% { color: red; }
-    16.6% { color: orange; }
-    33.2% { color: yellow; }
-    49.8% { color: green; }
-    66.4% { color: blue; }
-    83% { color: indigo; }
-    100% { color: violet; }
-  }
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    16.6% {
+        color: orange;
+    }
+
+    33.2% {
+        color: yellow;
+    }
+
+    49.8% {
+        color: green;
+    }
+
+    66.4% {
+        color: blue;
+    }
+
+    83% {
+        color: indigo;
+    }
+
+    100% {
+        color: violet;
+    }
+}
+
+@keyframes background-color-change {
+    0% {
+        background-color: rgba(255, 0, 0, 0.8);
+
+    }
+
+    16.6% {
+        background-color: rgba(255, 165, 0, 0.8);
+
+    }
+
+    33.2% {
+        background-color: rgba(255, 255, 0, 0.8);
+
+    }
+
+    49.8% {
+        background-color: rgba(0, 128, 0, 0.8);
+
+    }
+
+    66.4% {
+        background-color: rgba(0, 0, 255, 0.8);
+
+    }
+
+    83% {
+        background-color: rgba(75, 0, 130, 0.8);
+        ;
+    }
+
+    100% {
+        background-color: rgba(238, 130, 238, 0.8);
+        ;
+    }
+}
